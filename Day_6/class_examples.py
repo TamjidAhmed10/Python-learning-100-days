@@ -7,6 +7,9 @@ class Parrot:
 blue = Parrot("tamjid",4)
 
 print(blue.species)
+print(blue.age)
 
+rio= Parrot("Nata", 5)
+print(rio.name, "age" , rio.age )
 
         
