@@ -3,4 +3,13 @@ class MySecondParrot:
         self.name= name
         self.age = age
 
-    def 
+    def sing(self,song):
+        print( self.name, "is singing",song)
+    
+    def dance(self):
+        print(self.name, "is Dancing")
+
+rio = MySecondParrot("rio", 4)
+
+rio.sing("Despasito")
+rio.dance()
